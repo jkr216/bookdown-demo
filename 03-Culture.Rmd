@@ -1,0 +1,10 @@
+# Culture
+
+What does the _underscore_ thing do in Rmd. We'll find out. 
+
+What is a culture of reproducibility? Where does it come from? 
+
+## Example one {-}
+Those double hashes automatically put it to 5.1. Below it will go to 5.1.1.
+
+### Example two {-}

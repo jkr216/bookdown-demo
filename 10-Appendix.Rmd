@@ -1,0 +1,9 @@
+# Appendix {-}
+
+A very brief description of what Shiny is and how it can help your financial analysis. 
+
+These are live web applications, so if you're holding this book in your hand, you'll need to head to the internet. They are all hosted live at [reproduciblefinance.com](reproduciblefinance.com). 
+
+# Two Models of a Shiny Lab
+
+

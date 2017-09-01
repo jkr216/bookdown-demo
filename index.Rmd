@@ -1,6 +1,6 @@
 --- 
-title: "A Minimal Book Example"
-author: "Yihui Xie"
+title: "Reproducible Finance: How Financial Orgs Can Unlock the Power of Data Science or a Vision for Data Science in Finance or How to build the best damn data science team in finance"
+author: "Jonathan K. Regenstein, Jr."
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
@@ -8,27 +8,34 @@ documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
-github-repo: rstudio/bookdown-demo
-description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
+github-repo: jkr216/bookdown-reproducible-finance
+description: "This book lays out a vision for how a financial organization can deploy the principles of reproducbility and data science."
 ---
 
-# Prerequisites
+# Preface {-}
+A belief about finance, the future, how it's being done and the scientific method. The motivati
 
-This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports, e.g., a math equation $a^2 + b^2 = c^2$.
+## Why {-}
 
-For now, you have to install the development versions of **bookdown** from Github:
+It's important. All fintech can be reduced data science, with a small margin of error for cryptocurrencies and the blockchain. 
 
-```{r eval=FALSE}
-devtools::install_github("rstudio/bookdown")
-```
+## Who should read this {-}
 
-Remember each Rmd file contains one and only one chapter, and a chapter is defined by the first-level heading `#`.
+# Introduction {-}
 
-To compile this example to PDF, you need to install XeLaTeX.
+What is this book, what is it not. Why does it include more than just code? The software is important and the algorithms or inferences are the final product, but it takes a lot of ditch-digging to get to that point. Analogy: imagine a book about becoming a professional tennis player that said, here's a schematic on how to walk on the court, throw the ball in the air, rotate your body, hips and shoulder, and hit a serve 120 miles per hour. That's helpful, sort of, but it skipped the hard part - the fitness, the stretching, hiring a good coach, a good nutritionist, building an environment conducive to extreme focus, etc. A data science team or lab that generates transformative outcomes is the same way.  The actual algorithm or trading strategy is the culmination of a mindful, long-term process. 
+
+Way too frequently in conversation with people in industry who want to get serious about data science, I am asked the question: what model should we run? Or what algorithm should we implement? I understand the question and the desire to push button = generate alpha, but that is not reality.  Imagine a pharma lab searching for the cure for a disease, and asking: ok, what one experiment will lead us to the truth? 
+
+In fact, when I set out to write this book, the standard advice was to include some useful code and not much else. 
+
+
+
+This is a book for financial professionals, leadeers who want to use R, leverage R, build a data science team. Perhaps you want to set up a data science lab within an investment bank or hedge fund, or perhaps you want to build algorithmic trading strategies. 
 
 ```{r include=FALSE}
 # automatically create a bib database for R packages
 knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+  .packages(), 'bookdown', 'knitr', 'rmarkdown', 'tidyverse', 'quantmod', 'dygraphs', 'highcharter', 'scales', 'leaflet', 'tidyquant'
 ), 'packages.bib')
 ```

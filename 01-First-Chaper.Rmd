@@ -1,0 +1,79 @@
+# Summary
+
+Why do robo-advisors like Betterment and Wealthfront cost a fraction of the price of traditional advisors? Why can one credit agency rate debt in 30 days but it takes another 6 months? How is Blackrock doing away with human stock-picking in favor of machine learning? Those firms have embraced the principles of data science and they can do things more faster, cheaper and smarter, and their advantage is growing every day. This is no secret and most financial institutions are frantically working to be the leader, or to catch up to the leader, in this brave new world.
+
+*Reproducible Finance* explains how to build a great data science practice in the world of finance and compete in the modern financial jungle. The foundational hypothesis is that the world of finance is changing, embracing data science and technology, but there's no roadmap for how to do that.  Building a good technical foundation of R code is important, and the bulk of this book is dedicated to that R code. However, the reason this book is not called *R Code in Finance* is that I will also emphasize the work flows, culture, and best practices necessary to build a data science team within the confines of a traditional financial institution. In short, it's more than just code. *Reproducible Finance* will frequently emphasize reproducibility, reusability, lean processes, experimentation and other ideals that relate to but go beyond writing code.
+
+By book's end, a managing director at a bank or hedge fund will have the technical foundation and cultural mindset to begin building a data science team that delivers an advantage over slower moving firms. Readers will gain an edge on the competition through the use of data science. 
+
+It's important to note that this book will involve a substantial web presence at reproduciblefinance.com. Most of the coding examples conclude by building an interactive Shiny web application, and those will be hosted at the homepage, along with any data and author blog posts. In that sense, *Reproducible Finance* is more of a dynamic R-based project than a traditional book about R. 
+
+## Why me and why now?
+
+At RStudio, I work with dozens of financial services organizations - investment banks, commercial banks, hedge funds, investment managers, central banks - on various aspects of bringing data science to finance. I have seen wildly successful efforts and frighteningly unsuccessful forays. This book attempts to codify the best practices.
+
+A good first step is asking, what is success in data science for financiers? It's something different than in physics or other hard sciences seeking natural laws. Financiers are seeking an edge, a way to generate more revenue than the other guys. Reproducible finance might not lead to a quantum physics breakthrough, but it must lead to extra marginal revenue (or alpha as investment type people like to say) and we won't lose sight of that.
+
+
+## Introducing our nemesis
+
+Finance has traditionally lionized what I call the BBG - the black box genius. The BBG is our nemesis, our foil, the devil on our shoulder. This is the guy, girl or team that generates alpha but hides their methods in a black box so no one else can steal their ingenius ideas. They can do this because they are such money-generating geniuses that the org has to listen to them or risk their departure. It also means no one knows how they are making so much money - luck, skill, both, nefarious stuff. Sometimes the firm finds out when regulators and plaintiffs start lining up and asking questions, usually the genius has left by this time. Sometimes they just find out when it's time find new strategies but the BBG can't do that because the methods aren't reusable or reproducable. In today's world, the BBG might simply leave for a competing firm and if the principles of *Reproducible Finance* haven't been implemented, the old firm is stuck with an opaque and hard-to-untangle mess.
+
+# Intended Audience and Why They'll Read It
+
+The intended audience are Leaders at financial institutions who want to build data science practices, analysts at financial institutions who want to work on data science teams, students/aspiring professionals who want work in finance today, tomorrow, or in 5 years and anyone who has foreseen that Excel skills are not enough to be competitive in finance. All of these groups want to modernize, embrace fintech and gain an edge. This book offers them one way to do so.
+
+
+## Chapters - a few of these have already appeared as blog posts if a flavor for the technical writing is helpful. These were originally published on [RStudio's blog](https://rviews.rstudio.com/categories/reproducible-finance-with-r/) and also on the [reproduciblefinance.com](reproduciblefinance.com) homepage that is part of this project. 
+
+1. Volatility
+    + [Intro Portfolio Volatility](http://www.reproduciblefinance.com/2017/07/12/introduction-to-volatility/)
+    + [Rolling Volatility](http://www.reproduciblefinance.com/2017/07/18/introduction-to-rolling-volatility/)
+    + [Visualizing Volatility](http://www.reproduciblefinance.com/2017/07/21/visualizing-portfolio-volatility/)
+    + [Shiny App](http://www.reproduciblefinance.com/2017/08/08/portfolio-volatility-shiny-app/)
+    + Intro to Portfolio Components and Volatility
+    + Visualizing Component Volatility
+    + Shiny
+    + Minimum Variance Portfolio
+    + Shiny
+2. Return
+    + From Prices to Returns
+    + Portfolio Components and Returns
+    + Rebalancing 
+    + Shiny
+    + Monte Carlo Simulation
+    + Visualizing and Density Plots
+    + Shiny
+3. Portfolio Theory
+    + Sharpe Ratio
+    + Sortino Ratio
+    + Shiny
+    + Mean Variance Optimization
+    + Efficient frontier/tangency portfolio
+    + Shiny
+4. Other Asset Classes
+    + Bonds
+    + Currencies
+    + Commodities
+5. Some Modeling
+    + Capital asset pricing model
+    + Arbitrage pricing theory
+    + Fama French multifactor model
+6. Beyond Code
+    + Culture
+    + People
+    + Alpha
+7. Conclusion
+
+ 
+
+### Culture
+Training, useR groups. Pull people from different teams and pair them up with a directive to produce a project and learn one new skill. 
+
+How finance is different from physics: there are no laws. Markets change and if you find an edge, it will disappear. That leads naturally to a reluctance to make things reproducible, to instead black box things and become a rich genius. 
+
+### People
+You need to hire the right team, what does that look like. Let's start with the data science process. Gather, import, wrangle, model, infer, communicate, visualize. 
+
+### Revenue
+Finance is about finding an edge and turning that edge into alpha. As we said before, this is not science where the goal is to discover a new truth and have it accepted as a new law of nature. Alpha is short lived, and the methods of reproducible finance can lead to that alpha. If they don't, they won't last long.
